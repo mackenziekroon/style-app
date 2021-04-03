@@ -2,11 +2,20 @@
   text-align: center;
 }
 
-dog {
-  position: relative;
-  top: 0;
-  left: 0;
+.dog-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.dog {
+  position: absolute;
   z-index: 1;
+  height: 80%;
+  width: auto;
+  margin-top: 2%;
 }
 
 .shirt-1 {
@@ -14,6 +23,15 @@ dog {
   width: auto;
   position: absolute;
   top: 250px;
+  left: 650px;
+  z-index: 2;
+}
+
+.hat-1 {
+  height: 150px;
+  width: auto;
+  position: absolute;
+  top: 20px;
   left: 650px;
   z-index: 2;
 }
